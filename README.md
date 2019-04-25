@@ -13,10 +13,14 @@ After downloading and installing the Java SDK, download the files in this reposi
 Navigate to the directory with the DualSlalomBracketCreator files.
 
 Disclaimer: I took the class CS1331 many years ago. The version of java and javac I have and used to create this program are as follows:
+
 java -version
-  1.8.0_73
+
+1.8.0_73
+
 javac -version
-  javac 1.8.0_73
+
+javac 1.8.0_73
 
 The Oracle installation instructions for this verison can be found here: https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html
 
