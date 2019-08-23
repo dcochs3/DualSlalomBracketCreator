@@ -5,12 +5,10 @@ A Java program that takes in a .csv file containing qualifying time information 
 To use this program, you must have downloaded and installed the Java SDK on your computer.
 
 I've included two resources to help with this:
-  1. The CS1331 installation instructions (https://cs1331.gitlab.io/install-java.html), which are also listed below
+  1. The Georgia Tech CS1331 installation instructions (https://cs1331.gitlab.io/install-java.html), which are also listed below
   2. Oracle’s installation instructions (https://docs.oracle.com/javase/10/)
 
 After downloading and installing the Java SDK, download the files in this repository.
-
-Navigate to the directory with the DualSlalomBracketCreator files.
 
 Disclaimer: I took the class CS1331 many years ago. The version of java and javac I have and used to create this program are as follows:
 
@@ -25,12 +23,16 @@ javac 1.8.0_73
 The Oracle installation instructions for this verison can be found here: https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html
 
 # Compiling
+In the command line, navigate to the directory (using the command cd -- Google it) with the DualSlalomBracketCreator files. Once there, run the compile command:
 javac DualSlalom.java
 
+If successful, no text should be outputted. A .class file should have been generated in your directory.
+
 # Running
+After successful compilation, in the command line, make sure you are in the directory with the DualSlalomBracketCreator files. Once there, run the command below and follow the prompts.
 java DualSlalom QualifyingTimes.csv
 
-The above command is an example of how to run the program with a .csv file.
+The above command is an example of how to run the program with a .csv file. If you name your .csv file differently than this example, substitute the example file name for your file name. 
 
 In this repository, you will find a file called "QualifyingTimes.csv". Input files must be formatted according to this file in order for the program to function as expected.
 This file must not contain any duplicate qualification times within the same category. If there is a tie in qualifying times within the same category, make the riders race again before running this program.
@@ -44,7 +46,8 @@ Windows
     NOTE: Make sure that you download the Java Development Kit (JDK) not the Java Runtime Environment (JRE). The JRE only allows you to run java programs, in order to develop your own java programs you will need the JDK.
     Run the installer that you just downloaded. Java will install in your "Program Files" folder. (You may also have a "java" folder in "Program Files (x86)" and you should ignore it because the java kit you are currently downloading will NOT install there.)
     Add the path to the bin folder in the java folder that you just installed to your PATH environment variable. Make sure that it is the path to the bin folder and not the path to a file inside the bin folder. eg: C:\Program Files\Java\jdk-10.0.2\bin
-    Verify that you have successfully installed java.
+    Editing your PATH environment variable can be done by searching "environment variables" in the Windows search or by Control Panel > System and Security > System > Advanced system settings. Once you've opened the System Properties, click on "Evnironment Variables...". Find the system variable called "Path" and click on it. Click "Edit...". Add the path to the bin folder in the java folder that you just installed here. See the example above. These are separated by semi-colons if necessary by your operating system.
+    Verify that you have successfully installed java by opening the command line and following the instructions below called "To confirm that your java installation was successful".
 
 Mac OS X
 
