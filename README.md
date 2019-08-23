@@ -1,6 +1,12 @@
 # DualSlalomBracketCreator
 A Java program that takes in a .csv file containing qualifying time information and outputs a .csv file with seeded rider matchups based on qualification times and categories.
 
+I would recommend either using Google Sheets or a text editor, like Notepad, to create the .csv file. Excel likes to reformat times of the format MM:SSS:mmm (where M is minute, S is second, and m is millisecond). If you choose to use Excel, just pay special attention that the times you enter remain what you mean once you leave the cell.
+
+.csv stands for comma separated values. Open the example .csv file in a text editor like Notepad to see how the it is formatted. This might be helpful if you choose to create your own .csv file using a text editor.
+
+If you use Excel or Google Sheets, be sure to save the file as a .csv and not as an .xslx.
+
 # Setup
 To use this program, you must have downloaded and installed the Java SDK on your computer.
 
@@ -24,12 +30,14 @@ The Oracle installation instructions for this verison can be found here: https:/
 
 # Compiling
 In the command line, navigate to the directory (using the command cd -- Google it) with the DualSlalomBracketCreator files. Once there, run the compile command:
+
 javac DualSlalom.java
 
 If successful, no text should be outputted. A .class file should have been generated in your directory.
 
 # Running
 After successful compilation, in the command line, make sure you are in the directory with the DualSlalomBracketCreator files. Once there, run the command below and follow the prompts.
+
 java DualSlalom QualifyingTimes.csv
 
 The above command is an example of how to run the program with a .csv file. If you name your .csv file differently than this example, substitute the example file name for your file name. 
