@@ -5,7 +5,7 @@ I would recommend either using Google Sheets or a text editor, like Notepad, to 
 
 .csv stands for comma separated values. Open the example .csv file in a text editor like Notepad to see how the it is formatted. This might be helpful if you choose to create your own .csv file using a text editor.
 
-If you use Excel or Google Sheets, be sure to save the file as a .csv and not as an .xslx.
+If you use Excel or Google Sheets, be sure to save the file as a .csv and not as an .xlsx.
 
 # Setup
 To use this program, you must have downloaded and installed the Java SDK on your computer.
